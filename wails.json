@@ -1,0 +1,13 @@
+{
+    "$schema": "https://wails.io/schemas/config.v2.json",
+    "name": "Desktop App",
+    "outputfilename": "first-desktop-app",
+    "frontend:install": "pnpm install",
+    "frontend:build": "pnpm build",
+    "frontend:dev:watcher": "pnpm dev",
+    "frontend:dev:serverUrl": "auto",
+    "author": {
+        "name": "DeveloperRalsei",
+        "email": "fluffycutegoatboi@gmail.com"
+    }
+}
