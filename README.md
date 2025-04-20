@@ -23,7 +23,7 @@
 
 > If you want to use an another package manager you must change commands in the `wails.json` file
 
-## Installition
+## Installation
 
 1. Install [Go](https://go.dev/dl/)
 2. Install `wails cli` with `go install github.com/wailsapp/wails/v2/cmd/wails@latest` command
