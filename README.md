@@ -19,7 +19,7 @@
 ## Requirements
 
 - [Go] v1.23.3+
-- [PNPM](https://pnpm.io/) (Node v15+)
+- [NPM](https://npmjs.org/) (Node v15+)
 
 > If you want to use an another package manager you must change commands in the `wails.json` file
 
