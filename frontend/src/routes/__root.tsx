@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Outlet, createRootRoute } from "@tanstack/react-router";
 import { AppShell, Burger, Group } from "@mantine/core";
-import { main } from "#/models";
-import { GetAppConstants } from "#/main/App";
+import { config } from "#/models";
+import { GetAppConstants } from "#/app/App";
 
 export const Route = createRootRoute({
     component: RootComponent,
@@ -10,7 +10,7 @@ export const Route = createRootRoute({
 
 function RootComponent() {
     const [navbarCollapsed, setNavbarCollapsed] = useState(true);
-    const [appInfo, setAppInfo] = useState<main.AppConfig | null>(null);
+    const [appInfo, setAppInfo] = useState<config.AppConfig | null>(null);
 
     useEffect(() => {
         GetAppConstants()

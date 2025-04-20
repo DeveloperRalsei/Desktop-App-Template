@@ -1,4 +1,4 @@
-module first-desktop-app
+module github.com/developerRalsei/desktop-app-template
 
 go 1.23
 
